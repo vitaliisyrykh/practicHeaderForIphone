@@ -1,4 +1,4 @@
-body{
+body {
   min-width: 300px;
   max-width: 1400px;
   background-image: url(../img/background/5421859-watercolor-background-missouri-state-teachers-association-watercolor-background-1920_1100_preview.png);
@@ -7,7 +7,7 @@ body{
   background-position: center;
 }
 
-.headerContainer{
+.headerContainer {
   display: flex;
   background-color: black;
   color: white;
@@ -19,40 +19,36 @@ body{
   left: 0;
   right: 0;
   flex-wrap: wrap;
-  margin: 0 auto;
-  flex-grow: 0.5;
-  text-align: center;
+  
   font-size: 1em;
   text-align: left;
 }
-.heading{
-  font-family: 'Nerko One', cursive;
- padding: 10px;
- text-align: right;
- font-weight: 500;
- font-size: 2em;
+.heading {
+  font-family: "Nerko One", cursive;
+  padding: 10px;
   
+  font-weight: 500;
+  font-size: 2em;
 }
-.naviContainer{
+.naviContainer {
   align-self: center;
-/*   margin-top: 10px;
- */}
-li{
-  
-  display: inline-block;
-  
-  
+     margin-top: 10px;
+ 
 }
-.naviLink{
+li {
+  display: inline-block;
+}
+.naviLink {
   text-decoration: none;
   width: 100px;
   color: white;
   padding: 10px;
+  font-weight: 400;
 }
-.buttonContact{
-  border:1px solid white;
+.buttonContact {
+  border: 1px solid white;
   padding: 10px;
-/*   align-self: flex-end;
- */  margin-top: 10px;
- text-align: center;
+  align-self: flex-end;
+  margin-top: 10px;
+  text-align: center;
 }
